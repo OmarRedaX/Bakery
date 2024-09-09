@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scrolling-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 55px;
+  background-color: white;
+  z-index: 9999;
+  transition: width 0.3s ease;
+}
+
+.scrolling-bar img {
+  width: 18%;
+  padding-left: 36%;
+  padding-top: 5px;
+}
+
+.inside-bar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 55px;
+  background-color: white;
+  z-index: 9999;
+  transition: width 0.3s ease;
+}
+
+.inside-bar a {
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  color: #111;
+  text-decoration: none;
+  padding: 5% 4%;
+}
+
+.bg-page {
+  width: 100%;
+  height: 800px;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inside-bg {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  padding-top: 14%;
+}
+
+.inside-bg p {
+  color: white;
+  font-size: 22px;
+  font-family: "Alegreya", serif;
+}
+
+.inside-bg h1 {
+  color: white;
+  font-size: 76px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  margin-bottom: 1%;
+  margin-top: 0;
+}
+
+.inside-bg button {
+  padding: 20px 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.bg-button {
+  background-color: #8e7754;
+  border-color: #8e7754;
+  color: white;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.who-we-are {
+  width: 63%;
+  height: 70vh;
+  margin: 3% 18%;
+  display: flex;
+}
+
+.image-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.who-we-are img {
+  width: 100%;
+}
+
+.words-who-we-are {
+  width: 55%;
+  padding-left: 70px;
+  padding-top: 110px;
+}
+
+.words-who-we-are h2 {
+  font-size: 32px;
+  color: rgb(48, 48, 48);
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.words-who-we-are p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.words-who-we-are p img {
+  width: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(139, 139, 139, 0.5);
+  border-radius: 100px;
+}
+
+.words-who-we-are p span {
+  padding-left: 7px;
+}
+
+.our-baking {
+  text-align: center;
+}
+
+.our-baking h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  color: rgb(48, 48, 48);
+  font-family: "Alegreya", serif;
+}
+
+.our-baking p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.baking {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.baking p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.baking h2 {
+  font-size: 22px;
+  color: rgb(48, 48, 48);
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.words-map {
+  width: 55%;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.words-map h2 {
+  font-size: 32px;
+  color: rgb(48, 48, 48);
+  font-weight: 400;
+  line-height: 44px;
+  font-family: "Alegreya", serif;
+}
+
+.words-map p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Alegreya", serif;
+  padding-bottom: 5px;
+}
+
+.words-map p img {
+  width: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(139, 139, 139, 0.5);
+  border-radius: 100px;
+  background-color: #8e7754;
+}
+
+.words-map p span {
+  padding-left: 7px;
+}
+
+.last {
+  width: 100%;
+  height: 450px;
+  background-color: #403d38;
+}
+
+.info {
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin: 10px 45px;
+}
+
+.info h3 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 25px;
+  font-family: "Alegreya", serif;
+}
+
+.info p {
+  font-size: 16px;
+  color: rgb(150, 150, 150);
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.info p img {
+  width: 5%;
+}
+
+#bg-icon {
+  background-image: url(images/contact-details-map.png);
+  background-repeat: no-repeat;
+}
+
+.finish {
+  width: 100%;
+  height: 300px;
+  background-color: #353330;
+  text-align: center;
+}
+
+.finish img {
+  padding-top: 40px;
+}
+
+.finish p {
+  font-size: 15px;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Alegreya", serif;
+}
+
+.finish a img {
+  width: 2%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(139, 139, 139, 0.5);
+  border-radius: 20px;
+}
